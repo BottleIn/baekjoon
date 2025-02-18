@@ -9,7 +9,7 @@ using namespace std;
 typedef long long ll;
 
 int N,M;
-int l,r; // ¿ÞÂÊ ¿À¸¥ÂÊ Æ÷ÀÎÅÍ
+int l,r; // ì™¼ìª½ ì˜¤ë¥¸ìª½ í¬ì¸í„°
 int cnt, sum;
 int num[MAX];
 
@@ -36,7 +36,7 @@ int main(){
             sum -= num[l++];
         }
 
-        if (l > r) {        // ¿À¸§Â÷¼øÀÌ ¾Æ´Ï¹Ç·Î ³Ñ¾î°¡¸é ¸®¼ÂÇÏ±â
+        if (l > r) {        // ì˜¤ë¦„ì°¨ìˆœì´ ì•„ë‹ˆë¯€ë¡œ ë„˜ì–´ê°€ë©´ ë¦¬ì…‹í•˜ê¸°
 			r = l;
 			sum = num[l];
 		}
