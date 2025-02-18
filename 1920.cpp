@@ -14,7 +14,7 @@ int main() {
     cin.tie(NULL);
     cout.tie(NULL);
 
-    freopen("input.txt", "r", stdin);
+    //freopen("input.txt", "r", stdin);
     cin >> N;
     for (int i = 1; i <= N; i++) {  // 1부터 저장
         cin >> dp1[i];
