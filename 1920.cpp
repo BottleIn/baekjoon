@@ -27,6 +27,7 @@ int main() {
         int tar;
         cin >> tar;
 
+        
         int start = 1, end = N, ans = 0;
         while (start <= end) {
             int mid = (start + end) / 2;
